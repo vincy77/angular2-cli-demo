@@ -1,0 +1,15 @@
+<p>
+  home works!dd
+</p>
+<div class="content">
+  <span class="title">lalala</span>
+</div>
+<button class="btn btn-primary">aaa</button>
+
+
+<div *ngFor="let alert of alerts">
+  <alert [type]="alert.type" dismissible="true">{{ alert.msg }}</alert>
+</div>
+<button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
+
+
